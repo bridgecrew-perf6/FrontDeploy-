@@ -53,4 +53,4 @@ jobs:
           app-name: 'frontendmarygi'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_324CCFF1B28E4EB185B8318619256700 }}
-          package: .
+          package: build
